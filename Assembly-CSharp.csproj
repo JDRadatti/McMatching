@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\CardScripts\Card.cs" />
     <Compile Include="Assets\Scripts\CardScripts\CardDisplay.cs" />
     <Compile Include="Assets\Scripts\CardScripts\CardManager.cs" />
+    <Compile Include="Assets\Scripts\CardScripts\DisplayHelpText.cs" />
     <Compile Include="Assets\Scripts\CardScripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\CardScripts\Item.cs" />
     <Compile Include="Assets\Scripts\CardScripts\ObjectShake.cs" />

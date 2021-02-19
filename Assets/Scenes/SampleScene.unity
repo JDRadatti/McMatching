@@ -748,6 +748,7 @@ GameObject:
   - component: {fileID: 66405183}
   - component: {fileID: 66405185}
   - component: {fileID: 66405184}
+  - component: {fileID: 66405186}
   m_Layer: 5
   m_Name: ChickenNuggets
   m_TagString: ChickenNuggets
@@ -806,6 +807,20 @@ MonoBehaviour:
   itemNameText: {fileID: 2118565762}
   artworkImage: {fileID: 1636922221}
   backgroundImage: {fileID: 1331817308}
+--- !u!114 &66405186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66405182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &125800507
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,6 +832,7 @@ GameObject:
   - component: {fileID: 125800508}
   - component: {fileID: 125800510}
   - component: {fileID: 125800509}
+  - component: {fileID: 125800511}
   m_Layer: 5
   m_Name: Fries
   m_TagString: Fries
@@ -875,6 +891,20 @@ MonoBehaviour:
   itemNameText: {fileID: 306084371}
   artworkImage: {fileID: 1359092550}
   backgroundImage: {fileID: 1058262944}
+--- !u!114 &125800511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125800507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &187897303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,6 +1045,7 @@ GameObject:
   - component: {fileID: 253092654}
   - component: {fileID: 253092656}
   - component: {fileID: 253092655}
+  - component: {fileID: 253092657}
   m_Layer: 5
   m_Name: GrilledCheese
   m_TagString: GrilledCheese
@@ -1073,6 +1104,20 @@ MonoBehaviour:
   itemNameText: {fileID: 1747582216}
   artworkImage: {fileID: 678240657}
   backgroundImage: {fileID: 317505205}
+--- !u!114 &253092657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253092653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &268751990
 GameObject:
   m_ObjectHideFlags: 0
@@ -1465,6 +1510,7 @@ GameObject:
   - component: {fileID: 310717939}
   - component: {fileID: 310717941}
   - component: {fileID: 310717940}
+  - component: {fileID: 310717942}
   m_Layer: 5
   m_Name: Beef
   m_TagString: Beef
@@ -1523,6 +1569,20 @@ MonoBehaviour:
   itemNameText: {fileID: 1239432392}
   artworkImage: {fileID: 1131074617}
   backgroundImage: {fileID: 2132933326}
+--- !u!114 &310717942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310717938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &317505203
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,6 +2535,7 @@ GameObject:
   - component: {fileID: 393311203}
   - component: {fileID: 393311205}
   - component: {fileID: 393311204}
+  - component: {fileID: 393311206}
   m_Layer: 5
   m_Name: ChickenSalad
   m_TagString: ChickenSalad
@@ -2533,6 +2594,20 @@ MonoBehaviour:
   itemNameText: {fileID: 43631693}
   artworkImage: {fileID: 824664817}
   backgroundImage: {fileID: 563957942}
+--- !u!114 &393311206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393311202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &419812077
 GameObject:
   m_ObjectHideFlags: 0
@@ -2747,6 +2822,7 @@ GameObject:
   - component: {fileID: 434471806}
   - component: {fileID: 434471808}
   - component: {fileID: 434471807}
+  - component: {fileID: 434471809}
   m_Layer: 5
   m_Name: DeluxeHamburger
   m_TagString: DeluxeHamburger
@@ -2805,6 +2881,20 @@ MonoBehaviour:
   itemNameText: {fileID: 541915053}
   artworkImage: {fileID: 703750652}
   backgroundImage: {fileID: 1515798699}
+--- !u!114 &434471809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434471805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &460427553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,6 +2906,7 @@ GameObject:
   - component: {fileID: 460427554}
   - component: {fileID: 460427556}
   - component: {fileID: 460427555}
+  - component: {fileID: 460427557}
   m_Layer: 5
   m_Name: DeluxeCheeseburger
   m_TagString: DeluxeCheeseburger
@@ -2874,6 +2965,20 @@ MonoBehaviour:
   itemNameText: {fileID: 509585877}
   artworkImage: {fileID: 1825436109}
   backgroundImage: {fileID: 1997320331}
+--- !u!114 &460427557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460427553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &483657297
 GameObject:
   m_ObjectHideFlags: 0
@@ -3371,6 +3476,7 @@ GameObject:
   - component: {fileID: 534059753}
   - component: {fileID: 534059755}
   - component: {fileID: 534059754}
+  - component: {fileID: 534059756}
   m_Layer: 5
   m_Name: Cheeseburger
   m_TagString: Cheeseburger
@@ -3429,6 +3535,20 @@ MonoBehaviour:
   itemNameText: {fileID: 750295656}
   artworkImage: {fileID: 1844278856}
   backgroundImage: {fileID: 1087119735}
+--- !u!114 &534059756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534059752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &541915051
 GameObject:
   m_ObjectHideFlags: 0
@@ -3975,6 +4095,7 @@ GameObject:
   - component: {fileID: 628861770}
   - component: {fileID: 628861772}
   - component: {fileID: 628861771}
+  - component: {fileID: 628861773}
   m_Layer: 5
   m_Name: Fryer
   m_TagString: Fryer
@@ -4033,6 +4154,20 @@ MonoBehaviour:
   itemNameText: {fileID: 1475032894}
   artworkImage: {fileID: 1464968740}
   backgroundImage: {fileID: 2075025621}
+--- !u!114 &628861773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628861769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!224 &634184303 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4966323319687829498, guid: 3245334bc3439449cabaa19830278541,
@@ -5961,7 +6096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 302, y: 7}
+  m_AnchoredPosition: {x: 13, y: 7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &775217975
@@ -6165,6 +6300,7 @@ GameObject:
   - component: {fileID: 859724714}
   - component: {fileID: 859724716}
   - component: {fileID: 859724715}
+  - component: {fileID: 859724717}
   m_Layer: 5
   m_Name: Salad
   m_TagString: Salad
@@ -6223,6 +6359,20 @@ MonoBehaviour:
   itemNameText: {fileID: 875733341}
   artworkImage: {fileID: 658557996}
   backgroundImage: {fileID: 693103828}
+--- !u!114 &859724717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859724713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &868892523
 GameObject:
   m_ObjectHideFlags: 0
@@ -6688,7 +6838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -289, y: 8}
+  m_AnchoredPosition: {x: 4, y: 8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885770351
@@ -9035,6 +9185,7 @@ GameObject:
   - component: {fileID: 1123569583}
   - component: {fileID: 1123569585}
   - component: {fileID: 1123569584}
+  - component: {fileID: 1123569586}
   m_Layer: 5
   m_Name: Lettuce
   m_TagString: Lettuce
@@ -9093,6 +9244,20 @@ MonoBehaviour:
   itemNameText: {fileID: 598703242}
   artworkImage: {fileID: 1911847109}
   backgroundImage: {fileID: 2050206735}
+--- !u!114 &1123569586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123569582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &1131074615
 GameObject:
   m_ObjectHideFlags: 0
@@ -9459,6 +9624,7 @@ GameObject:
   - component: {fileID: 1163397434}
   - component: {fileID: 1163397436}
   - component: {fileID: 1163397435}
+  - component: {fileID: 1163397437}
   m_Layer: 5
   m_Name: ChickenSandoMeal
   m_TagString: ChickenSandoMeal
@@ -9517,6 +9683,20 @@ MonoBehaviour:
   itemNameText: {fileID: 693436589}
   artworkImage: {fileID: 548379386}
   backgroundImage: {fileID: 880759235}
+--- !u!114 &1163397437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163397433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &1172938453
 GameObject:
   m_ObjectHideFlags: 0
@@ -11016,6 +11196,7 @@ GameObject:
   - component: {fileID: 1375528056}
   - component: {fileID: 1375528058}
   - component: {fileID: 1375528057}
+  - component: {fileID: 1375528059}
   m_Layer: 5
   m_Name: DeluxeChickenSando
   m_TagString: DeluxeChickenSando
@@ -11074,6 +11255,20 @@ MonoBehaviour:
   itemNameText: {fileID: 868892525}
   artworkImage: {fileID: 721601803}
   backgroundImage: {fileID: 821228558}
+--- !u!114 &1375528059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375528055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &1385272162
 GameObject:
   m_ObjectHideFlags: 0
@@ -11175,6 +11370,7 @@ GameObject:
   - component: {fileID: 1432602992}
   - component: {fileID: 1432602994}
   - component: {fileID: 1432602993}
+  - component: {fileID: 1432602995}
   m_Layer: 5
   m_Name: CheeseburgerMeal
   m_TagString: CheeseburgerMeal
@@ -11233,6 +11429,20 @@ MonoBehaviour:
   itemNameText: {fileID: 59577631}
   artworkImage: {fileID: 61521729}
   backgroundImage: {fileID: 61521729}
+--- !u!114 &1432602995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432602991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!224 &1437324550 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4966323319687829498, guid: 3245334bc3439449cabaa19830278541,
@@ -11605,6 +11815,7 @@ GameObject:
   - component: {fileID: 1498715677}
   - component: {fileID: 1498715679}
   - component: {fileID: 1498715678}
+  - component: {fileID: 1498715680}
   m_Layer: 5
   m_Name: ChickenNuggetMeal
   m_TagString: ChickenNuggetMeal
@@ -11663,6 +11874,20 @@ MonoBehaviour:
   itemNameText: {fileID: 1841947297}
   artworkImage: {fileID: 965450718}
   backgroundImage: {fileID: 1702509946}
+--- !u!114 &1498715680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498715676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!114 &1500630284 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3844320768737248064, guid: 3245334bc3439449cabaa19830278541,
@@ -12096,6 +12321,7 @@ GameObject:
   - component: {fileID: 1595575266}
   - component: {fileID: 1595575268}
   - component: {fileID: 1595575267}
+  - component: {fileID: 1595575269}
   m_Layer: 5
   m_Name: ChickenSando
   m_TagString: ChickenSandwhich
@@ -12154,6 +12380,20 @@ MonoBehaviour:
   itemNameText: {fileID: 1071027836}
   artworkImage: {fileID: 1135364666}
   backgroundImage: {fileID: 1119818257}
+--- !u!114 &1595575269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595575265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!224 &1599047982 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4966323319687829498, guid: 3245334bc3439449cabaa19830278541,
@@ -12661,6 +12901,7 @@ GameObject:
   - component: {fileID: 1650991188}
   - component: {fileID: 1650991190}
   - component: {fileID: 1650991189}
+  - component: {fileID: 1650991191}
   m_Layer: 5
   m_Name: Hamburger
   m_TagString: Hamburger
@@ -12719,6 +12960,20 @@ MonoBehaviour:
   itemNameText: {fileID: 1978769660}
   artworkImage: {fileID: 1650659683}
   backgroundImage: {fileID: 1945122243}
+--- !u!114 &1650991191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650991187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &1659191258
 GameObject:
   m_ObjectHideFlags: 0
@@ -12804,6 +13059,7 @@ GameObject:
   - component: {fileID: 1660796447}
   - component: {fileID: 1660796449}
   - component: {fileID: 1660796448}
+  - component: {fileID: 1660796450}
   m_Layer: 5
   m_Name: HamburgerMeal
   m_TagString: HamburgerMeal
@@ -12862,6 +13118,20 @@ MonoBehaviour:
   itemNameText: {fileID: 2054729662}
   artworkImage: {fileID: 916825367}
   backgroundImage: {fileID: 1659191260}
+--- !u!114 &1660796450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660796446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &1697039857
 GameObject:
   m_ObjectHideFlags: 0

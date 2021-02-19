@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{921B39DA-F078-844C-D559-458C0FBBB5FA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CardScripts/ObjectShake.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CardScripts/DisplayHelpText.cs">
     <Files>
       <File FileName="Assets/Scripts/CardScripts/CardDisplay.cs" Line="20" Column="1" />
-      <File FileName="Assets/Scripts/CardScripts/CardManager.cs" Line="374" Column="76" />
-      <File FileName="Assets/Scripts/CardScripts/Item.cs" Line="20" Column="41" />
-      <File FileName="Assets/Scripts/CardScripts/Card.cs" />
-      <File FileName="Assets/Scripts/CardScripts/Inventory.cs" />
-      <File FileName="Assets/Scripts/CardScripts/ObjectShake.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CardScripts/CardManager.cs" Line="605" Column="46" />
+      <File FileName="Assets/Scripts/CardScripts/Item.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/CardScripts/Card.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CardScripts/Inventory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CardScripts/ObjectShake.cs" Line="39" Column="9" />
+      <File FileName="Assets/Scripts/CardScripts/DisplayHelpText.cs" Line="7" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
