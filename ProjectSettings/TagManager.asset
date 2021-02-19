@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tomato
+  - Cheese
+  - Bread
+  - Chicken
+  - Beef
+  - Fryer
+  - Potato
+  - GrilledCheese
+  - Hamburger
+  - Pizza
+  - Fries
+  - ChickenNuggets
+  - ChickenSandwhich
+  - Lettuce
+  - Salad
+  - Cheeseburger
+  - DeluxeCheeseburger
+  - DeluxeHamburger
+  - DeluxeChickenSando
+  - ChickenNuggetMeal
+  - ChickenSalad
+  - ChickenSandoMeal
+  - HamburgerMeal
+  - CheeseburgerMeal
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
