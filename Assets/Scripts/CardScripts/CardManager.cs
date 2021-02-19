@@ -71,6 +71,10 @@ public class CardManager : MonoBehaviour
     private Dictionary<GameObject, Vector2> hand;
     #endregion
 
+    #region Animation_vars
+    private Animator animator; 
+    #endregion
+
     #region Queue_Vars
     private Vector2 leftCardInQueue;
     private Vector2 rightCardInQueue;
@@ -199,6 +203,8 @@ public class CardManager : MonoBehaviour
         unlockedObjects.Add(lettuce);
         */
         UpdateUnlockedCounterText();
+
+        animator = GetComponent<Animator>();
     }
 
     private void Awake()
@@ -361,6 +367,11 @@ public class CardManager : MonoBehaviour
                     }
                     UpdateUnlockedCounterText();
                     Refresh();
+                } else
+                {
+                    //perform failed to combine logic
+                    card1.GetComponent<Item>().RunFailedCombineAnimation();
+                    card2.GetComponent<Item>().RunFailedCombineAnimation();
                 }
             } 
 
@@ -591,7 +602,7 @@ public class CardManager : MonoBehaviour
     {
         Vector2 pos = FindPositionInHand();
         hand.Add(combined, pos);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.75f);
         MoveCard(itemRTDictionary[combined], pos);
         yield return null;
     }

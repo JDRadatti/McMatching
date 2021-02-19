@@ -1084,6 +1084,7 @@ GameObject:
   - component: {fileID: 268751991}
   - component: {fileID: 268751993}
   - component: {fileID: 268751992}
+  - component: {fileID: 268751994}
   m_Layer: 5
   m_Name: Potato
   m_TagString: Potato
@@ -1142,6 +1143,20 @@ MonoBehaviour:
   itemNameText: {fileID: 1110252920}
   artworkImage: {fileID: 43135941}
   backgroundImage: {fileID: 1765636497}
+--- !u!114 &268751994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268751990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!114 &285230705 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3844320768737248064, guid: 3245334bc3439449cabaa19830278541,
@@ -4341,6 +4356,7 @@ GameObject:
   - component: {fileID: 651704442}
   - component: {fileID: 651704444}
   - component: {fileID: 651704443}
+  - component: {fileID: 651704445}
   m_Layer: 0
   m_Name: Pizza
   m_TagString: Pizza
@@ -4399,6 +4415,20 @@ MonoBehaviour:
   itemNameText: {fileID: 1146174379}
   artworkImage: {fileID: 1931359338}
   backgroundImage: {fileID: 657585953}
+--- !u!114 &651704445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651704441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &651876941
 GameObject:
   m_ObjectHideFlags: 0
@@ -5903,6 +5933,7 @@ GameObject:
   - component: {fileID: 775217974}
   - component: {fileID: 775217975}
   - component: {fileID: 775217976}
+  - component: {fileID: 775217977}
   m_Layer: 5
   m_Name: Bread
   m_TagString: Bread
@@ -5961,6 +5992,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 233fef5eaf8974367a3c17c641ceceea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &775217977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775217973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &821228556
 GameObject:
   m_ObjectHideFlags: 0
@@ -6614,6 +6659,8 @@ GameObject:
   - component: {fileID: 885770350}
   - component: {fileID: 885770351}
   - component: {fileID: 885770352}
+  - component: {fileID: 885770353}
+  - component: {fileID: 885770354}
   m_Layer: 5
   m_Name: Cheese
   m_TagString: Cheese
@@ -6641,7 +6688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 8}
+  m_AnchoredPosition: {x: -289, y: 8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885770351
@@ -6672,6 +6719,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 233fef5eaf8974367a3c17c641ceceea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &885770353
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885770349}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b42e8b3446fd14527ab7bc0b0184266c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &885770354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885770349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!1 &897178700
 GameObject:
   m_ObjectHideFlags: 0
@@ -11005,6 +11085,7 @@ GameObject:
   - component: {fileID: 1385272164}
   - component: {fileID: 1385272163}
   - component: {fileID: 1385272166}
+  - component: {fileID: 1385272165}
   m_Layer: 0
   m_Name: Tomato
   m_TagString: Tomato
@@ -11051,6 +11132,20 @@ RectTransform:
   m_AnchoredPosition: {x: 12, y: 8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1385272165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385272162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!114 &1385272166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14573,6 +14668,7 @@ GameObject:
   - component: {fileID: 2005570375}
   - component: {fileID: 2005570377}
   - component: {fileID: 2005570376}
+  - component: {fileID: 2005570378}
   m_Layer: 5
   m_Name: Chicken
   m_TagString: Chicken
@@ -14631,6 +14727,20 @@ MonoBehaviour:
   itemNameText: {fileID: 2129263327}
   artworkImage: {fileID: 1185370380}
   backgroundImage: {fileID: 897178702}
+--- !u!114 &2005570378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005570374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470b765479bc14d21a83bed5949bc9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shake_decay: 0.02
+  shake_intensity: 0.3
 --- !u!224 &2043198528 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4966323319687829498, guid: 3245334bc3439449cabaa19830278541,

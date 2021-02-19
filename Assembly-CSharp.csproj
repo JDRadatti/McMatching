@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\CardScripts\CardManager.cs" />
     <Compile Include="Assets\Scripts\CardScripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\CardScripts\Item.cs" />
+    <Compile Include="Assets\Scripts\CardScripts\ObjectShake.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.14f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

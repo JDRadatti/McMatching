@@ -6,11 +6,19 @@ public class Item : MonoBehaviour
 {
     private GameObject cardManager;
     private CardManager cardScript;
+    private ObjectShake objShake;
 
     private void Awake()
     {
         cardManager = GameObject.Find("CardManagerObject"); 
         cardScript = cardManager.GetComponent<CardManager>();
+        objShake = GetComponent<ObjectShake>();
+    }
+
+    public void RunFailedCombineAnimation()
+    {
+        //anim.SetBool("PlayShake", true);
+        objShake.Shake();
     }
 
     public void ClickedOnTomato()
@@ -110,5 +118,6 @@ public class Item : MonoBehaviour
     {
         cardScript.Movementhandler(this.gameObject);
     }
+
     
 }
